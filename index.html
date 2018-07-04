@@ -16,19 +16,26 @@
                 font-family: cursive;
                 text-align: center;
             }
-            ul{
+            #lis{
+			    width: 250px;
+				height: 200px;
+				position: absolute;
+				top: 500px;
+				left: 0px;
                 font-size: 2em;
                 font-family: monospace;
-                text-decoration: 
             }
             #greet{
-                <!--width: 100px;-->
-                <!--height: 600px;-->
-                font-size:5px;
+                width: 300px;
+                height: 100px;
+				position: absolute;
+				top: 400px;
+				left: 0px;
+                font-size:20px;
                 font-family: fantasy;
                 color: purple;
-                border: 2px bold blue;
-                margin: 1px 1px 1px 1px;
+                border: 1px solid green;
+                margin: 0px 1px 0px 1px;
                 padding: 1px;
             }
         </style>
@@ -38,14 +45,14 @@
     <body>
         <h1>孙敬松的自习小屋</h1>
         <img width="300" height="300" class="avatar rounded-2" alt="@sunjingsong" src="https://avatars2.githubusercontent.com/u/40727233?s=400&amp;u=1c468a736b9ff0af7a1b78cb8aba19851d39faa2&amp;v=4">
-        <ul>
-            <p id = "greet">大家好，我是California State University Dominguez的在读硕士生，现在攻读的专业为计算机科学，欢迎大家前来交流学习</p>
+        <p id = "greet">大家好，我是<a href = "https://www.csudh.edu/">California State University Dominguez</a>的在读硕士生，现在攻读的专业为计算机科学，欢迎大家前来交流学习</p>
+		<div id = "lis"><ul>
             <li>Python学习笔记</li>
 
             <li>Java学习笔记</li>
 
             <li>C语言学习笔记</li>
-        </ul>
+        </ul></div>
 
     
 
